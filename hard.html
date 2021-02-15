@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/a607344c5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <section class="score-panel">
+
+        	<span class="moves">0</span> Move(s)
+            <div class="timer">
+            </div>
+            <div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        
+        <div class="levels">
+        <a href="index.html"><button class="button1">Easy</button></a>
+        <a href="medium.html"><button class="button1">Medium</button></a>
+        <a href="hard.html"><button class="button3">Hard</button></a>
+        </div>
+    
+        <ul class="deck" id="card-deck">
+            <li class="card" type="angle">
+                <i class="fas fa-angle-down"></i>
+            </li>
+            <li class="card" type="playstation">
+                <i class="fab fa-playstation"></i>
+            </li>
+            <li class="card" type="ghost">
+                <i class="fas fa-ghost"></i>
+            </li>
+            <li class="card" type="twitch" >
+                <i class="fab fa-twitch"></i>
+            </li>
+            <li class="card" type="xbox">
+                <i class="fab fa-xbox"></i>
+            </li>
+            <li class="card match" type="ghost">
+                <i class="fas fa-ghost"></i>
+            </li>
+            <li class="card" type="square">
+                <i class="fab fa-steam-square"></i>
+            </li>
+            <li class="card" type="dice">
+                <i class="fas fa-dice-d20"></i>
+            </li>
+            <li class="card" type="angle">
+                <i class="fas fa-angle-down"></i>
+            </li>
+            <li class="card" type="power">
+                <i class="fas fa-power-off"></i>
+            </li>
+            <li class="card" type="square">
+                <i class="fab fa-steam-square"></i>
+            </li>
+            <li class="card" type="power">
+                <i class="fas fa-power-off"></i>
+            </li>
+            <li class="card open show" type="twitch">
+                <i class="fab fa-twitch"></i>
+            </li>
+            <li class="card" type="dice">
+                <i class="fas fa-dice-d20"></i>
+            </li>
+            <li class="card" type="playstation">
+                <i class="fab fa-playstation"></i>
+            </li>
+            <li class="card" type="xbox">
+                <i class="fab fa-xbox"></i>
+            </li>
+            <li class="card" type="stream">
+                <i class="fas fa-stream"></i>
+            </li>
+            <li class="card" type="stream">
+                <i class="fas fa-stream"></i>
+            </li>
+            <li class="card" type="keyboard">
+                <i class="fas fa-keyboard"></i>
+            </li>
+            <li class="card" type="keyboard">
+                <i class="fas fa-keyboard"></i>
+            </li>
+            <li class="card" type="mouse">
+                <i class="fas fa-mouse"></i>
+            </li>
+            <li class="card" type="mouse">
+                <i class="fas fa-mouse"></i>
+            </li>
+            <li class="card" type="curve">
+                <i class="fas fa-bezier-curve"></i>
+            </li>
+            <li class="card" type="curve">
+                <i class="fas fa-bezier-curve"></i>
+            </li>
+            <li class="card" type="eye">
+                <i class="far fa-eye"></i>
+            </li>
+            <li class="card" type="eye">
+                <i class="far fa-eye"></i>
+            </li>
+            <li class="card" type="compass">
+                <i class="fas fa-drafting-compass"></i>
+            </li>
+            <li class="card" type="compass">
+                <i class="fas fa-drafting-compass"></i>
+            </li>
+            <li class="card" type="ethernet">
+                <i class="fas fa-ethernet"></i>
+            </li>
+            <li class="card" type="ethernet">
+                <i class="fas fa-ethernet"></i>
+            </li>
+            <li class="card" type="hdd">
+                <i class="far fa-hdd"></i>
+            </li>
+            <li class="card" type="hdd">
+                <i class="far fa-hdd"></i>
+            </li>
+            <li class="card" type="layer">
+                <i class="fas fa-layer-group"></i>
+            </li>
+            <li class="card" type="layer">
+                <i class="fas fa-layer-group"></i>
+            </li>
+            <li class="card" type="microchip">
+                <i class="fas fa-microchip"></i>
+            </li>
+            <li class="card" type="microchip">
+                <i class="fas fa-microchip"></i>
+            </li>
+            <li class="card" type="bug">
+                <i class="fas fa-bug"></i>
+            </li>
+            <li class="card" type="bug">
+                <i class="fas fa-bug"></i>
+            </li>
+            <li class="card" type="cut">
+                <i class="fas fa-cut"></i>
+            </li>
+            <li class="card" type="cut">
+                <i class="fas fa-cut"></i>
+            </li>
+            <li class="card" type="save">
+                <i class="far fa-save"></i>
+            </li>
+            <li class="card" type="save">
+                <i class="far fa-save"></i>
+            </li>
+            <li class="card" type="folderopen">
+                <i class="far fa-folder-open"></i>
+            </li>
+            <li class="card" type="folderopen">
+                <i class="far fa-folder-open"></i>
+            </li>
+            <li class="card" type="broadcast">
+                <i class="fas fa-broadcast-tower"></i>
+            </li>
+            <li class="card" type="broadcast">
+                <i class="fas fa-broadcast-tower"></i>
+            </li>
+            <li class="card" type="microphone">
+                <i class="fas fa-microphone-alt"></i>
+            </li>
+            <li class="card" type="microphone">
+                <i class="fas fa-microphone-alt"></i>
+            </li>
+            <li class="card" type="volumeup">
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <li class="card" type="volumeup">
+                <i class="fas fa-volume-up"></i>
+            </li>
+        
+        </ul>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
