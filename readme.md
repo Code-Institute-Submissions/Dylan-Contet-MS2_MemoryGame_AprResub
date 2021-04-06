@@ -46,3 +46,22 @@ There is also a choice of 3 levels on this memory game consisting of Easy, Mediu
 Website<br>
 ![Website image](assets/images/Wireframe.JPG)
 >*This is a 1 page website with the same size game area for each level of difficulty. only one image of a wireframe is needed as this is for desktop and not mobile.
+
+***
+
+## Technologies implemented
+
+* [HTML]
+	* This project uses HTML as the main language used to complete the structure of the Website.
+* [Bootstrap]
+	* The Bootstrap framework is used throughout this website for layouts and styling.
+* [CSS]
+	* CSS was used for the styling of the elements and colouring.
+* [Javascript]
+	* JS was used to create the animations of the cards, the shuffling of the cards as well as the timer, move counter and reset button
+* [GitHub]
+	* GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [Git]
+	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [FireFox Developer Tools]
+	* Firefox's built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
