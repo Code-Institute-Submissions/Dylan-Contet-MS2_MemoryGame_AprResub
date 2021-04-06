@@ -12,3 +12,7 @@ This Website was created for the  purposes of completing the Second Milestone Pr
 * As a User For The First Time, I want to easily understand the main purpose of the site.
 * As a User For The First Time, I want to be able to understand how to use the site .
 
+### Goals for Returning Visitors
+
+* As a Returning user, I want to see that the main purpose of the site hasn't changed.
+* As a Returning user, I want to be able to play as many games on any difficulty without errors.
