@@ -40,3 +40,9 @@ At the core this is a memory game site so there wont be any major changes to it 
 This is a one page website for all levels of difficulty, there is a timer, moves counter and reset button to give the player control on how long they are taking and how many moves( just reset the game if you want to try for a faster time).
 There is also a choice of 3 levels on this memory game consisting of Easy, Medium and hard.
 
+***
+## Wireframes
+
+Website<br>
+![Website image](assets/images/Wireframe.JPG)
+>*This is a 1 page website with the same size game area for each level of difficulty. only one image of a wireframe is needed as this is for desktop and not mobile.
