@@ -16,3 +16,8 @@ This Website was created for the  purposes of completing the Second Milestone Pr
 
 * As a Returning user, I want to see that the main purpose of the site hasn't changed.
 * As a Returning user, I want to be able to play as many games on any difficulty without errors.
+
+### Goals for Frequent Visitors
+
+* As a Frequent user, I want to see if there will be any further updates to the game.
+* As a Frequent user, I want to see a variety of choices of memory games to play.
