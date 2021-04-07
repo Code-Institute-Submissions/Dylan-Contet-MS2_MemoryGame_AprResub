@@ -42,7 +42,7 @@ There is also a choice of 3 levels on this memory game consisting of Easy, Mediu
 
 ***
 ## Website screenshot
-![Website image](assets/images/snip.JPG)
+![Website](assets/images/snip.PNG)
 
 ***
 
