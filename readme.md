@@ -103,3 +103,9 @@ Issue 3 - Move counter wasn't working - Sorted by correcting JS code <br>
 * git add filename - This command was used to add fils to the staging area before commiting.
 * git commit -m  - This command was used to commit changes to the local repository.
 * git push - This command is used to push all commited changes to the GitHub. 
+
+
+## Credits 
+
+* Font awesome for all the free icons used for the game.
+* W3SCHOOLS.com for help with some of the tricker JS 
