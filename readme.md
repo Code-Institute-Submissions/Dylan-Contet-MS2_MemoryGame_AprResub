@@ -97,3 +97,9 @@ Issue 1 - Timer wouldn't work when game started - managed to fix by stating that
 Issue 2 - Game would break on the 9th move - this was due to some JS errors with the move counter. <br>
 Issue 3 - Move counter wasn't working - Sorted by correcting JS code <br>
 
+***
+## Deployment
+
+* git add filename - This command was used to add fils to the staging area before commiting.
+* git commit -m  - This command was used to commit changes to the local repository.
+* git push - This command is used to push all commited changes to the GitHub. 
