@@ -41,6 +41,11 @@ This is a one page website for all levels of difficulty, there is a timer, moves
 There is also a choice of 3 levels on this memory game consisting of Easy, Medium and hard.
 
 ***
+## Website screenshot
+![Website image](assets/images/snip.JPG)
+
+***
+
 ## Wireframes
 
 Website<br>
