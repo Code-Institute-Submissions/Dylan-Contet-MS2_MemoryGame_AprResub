@@ -91,3 +91,9 @@ Test 09 - Medium - Testing that there were exactly 2 of each card (no more or le
 Test 10 - Medium - Testing that there was no limit to the ammount of moves or timer.<br>
 Test 11 - Hard - Testing that there were exactly 2 of each card (no more or less) and for every match/no match that the appropriate feedback is given<br>
 Test 12 - Hard - Testing that there was no limit to the ammount of moves or timer.<br>
+
+### Issues faced
+Issue 1 - Timer wouldn't work when game started - managed to fix by stating that when the move counter was = to 1 the timer would start<br>
+Issue 2 - Game would break on the 9th move - this was due to some JS errors with the move counter. <br>
+Issue 3 - Move counter wasn't working - Sorted by correcting JS code <br>
+
