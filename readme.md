@@ -86,8 +86,8 @@ Test 04 - Test responsiveness of each  difficulty on various screen sizes on (ex
 Test 05 - Test the timer, move counter and restart button again on Chrome, Firefox, safari and Edge. <br>
 Test 06 - Testing that each difficulty takes you to the correct place. <br>
 Test 07 - Easy - Testing that there were exactly 2 of each card (no more or less) and for every match/no match that the appropriate feedback is given<br>
-Test 08 - Easy - Testing that there was no limit to the ammount of moves or timer.
+Test 08 - Easy - Testing that there was no limit to the ammount of moves or timer.<br>
 Test 09 - Medium - Testing that there were exactly 2 of each card (no more or less) and for every match/no match that the appropriate feedback is given<br>
-Test 10 - Medium - Testing that there was no limit to the ammount of moves or timer.
+Test 10 - Medium - Testing that there was no limit to the ammount of moves or timer.<br>
 Test 11 - Hard - Testing that there were exactly 2 of each card (no more or less) and for every match/no match that the appropriate feedback is given<br>
-Test 12 - Hard - Testing that there was no limit to the ammount of moves or timer.
+Test 12 - Hard - Testing that there was no limit to the ammount of moves or timer.<br>
